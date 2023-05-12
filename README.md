@@ -1,6 +1,7 @@
 # ResourceCalculator
 
 The Problem:
+-------------
 Consider a fictional company that manufactures many different final products. We will label these final products f1, f2, f3, and so on. The company also creates a number of intermediate materials, labeled m1, m2, m3, and so on. These intermediate products are required to produce the final products (in various combinations, depending on the product). The company requires the use of a variety of basic materials to produce these intermediate materials. The basic materials will be labeled b1, b2, b3, and so on. The company would like to produce a certain number of each final product, and needs to know how many of each basic resource to purchase to manage this.
 The Details:
 To make these calculations, we will assume that there are a total of M different basic resources, N different intermediate materials, and P different final products. Thus, the basic resources are b1, b2, ..., bM; the intermediate materials are m1, m2, ..., mN; and the final products are f1, f2, ..., fP. The costs for intermediate materials and final products are defined in two matrices.
@@ -18,22 +19,8 @@ All the data for a problem will be found in a text file. The text file will be c
 - The next P lines will contain one value each, representing the number of the final product fi the
 company wishes to produce.
 
-Here is an example file:
-4
-3
-3 
-1 0 1 
-2 1 1 
-0 1 1 
-1 1 2 
-1 2 1 
-2 3 1 
-4 2 2 
-10
-8 
-6
-
 The Program:
+-------------
 For this program, you may use any programming language that you wish (if it is something other than Java, C++, or Python, please let me know in advance). Submit your code file(s) via Moodle.
 Your program must make some use of concurrency. I am not defining how that is to be implemented, but the matrix multiplication seems to be the obvious choice.
 Your program should behave in the following manner:
