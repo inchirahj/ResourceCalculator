@@ -30,12 +30,3 @@ Your program should behave in the following manner:
 - Print out, one number per line, the number of each basic resource that is required to produce the
 number of final products given in the data file.
 - Exit the program.
-
-For example, running the program using the example file shown above could look like this:
-Welcome to the resource requirement calculator.
-Please enter a file name containing the data: example.txt
-The number of basic resources required is: 100
-182
-118
-218
-Thank you!
